@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951EE3431CF71B0900F6EB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3421CF71B0900F6EB7E /* AppDelegate.swift */; };
+		951EE3451CF71B0900F6EB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3441CF71B0900F6EB7E /* ViewController.swift */; };
+		951EE3481CF71B0900F6EB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EE3461CF71B0900F6EB7E /* Main.storyboard */; };
+		951EE34B1CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3491CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld */; };
+		951EE34D1CF71B0900F6EB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951EE34C1CF71B0900F6EB7E /* Assets.xcassets */; };
+		951EE3501CF71B0900F6EB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */; };
+		951EE35B1CF71B0A00F6EB7E /* HebrewVocabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE35A1CF71B0A00F6EB7E /* HebrewVocabTests.swift */; };
+		951EE3661CF71B0A00F6EB7E /* HebrewVocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951EE3571CF71B0900F6EB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951EE3371CF71B0900F6EB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951EE33E1CF71B0900F6EB7E;
+			remoteInfo = HebrewVocab;
+		};
+		951EE3621CF71B0A00F6EB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951EE3371CF71B0900F6EB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951EE33E1CF71B0900F6EB7E;
+			remoteInfo = HebrewVocab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951EE33F1CF71B0900F6EB7E /* HebrewVocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HebrewVocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		951EE3421CF71B0900F6EB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		951EE3441CF71B0900F6EB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		951EE3471CF71B0900F6EB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		951EE34A1CF71B0900F6EB7E /* HebrewVocab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HebrewVocab.xcdatamodel; sourceTree = "<group>"; };
+		951EE34C1CF71B0900F6EB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		951EE34F1CF71B0900F6EB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		951EE3511CF71B0900F6EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951EE3561CF71B0900F6EB7E /* HebrewVocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HebrewVocabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		951EE35A1CF71B0A00F6EB7E /* HebrewVocabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebrewVocabTests.swift; sourceTree = "<group>"; };
+		951EE35C1CF71B0A00F6EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951EE3611CF71B0A00F6EB7E /* HebrewVocabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HebrewVocabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebrewVocabUITests.swift; sourceTree = "<group>"; };
+		951EE3671CF71B0A00F6EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		951EE33C1CF71B0900F6EB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE3531CF71B0900F6EB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE35E1CF71B0A00F6EB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951EE3361CF71B0900F6EB7E = {
+			isa = PBXGroup;
+			children = (
+				951EE3411CF71B0900F6EB7E /* HebrewVocab */,
+				951EE3591CF71B0A00F6EB7E /* HebrewVocabTests */,
+				951EE3641CF71B0A00F6EB7E /* HebrewVocabUITests */,
+				951EE3401CF71B0900F6EB7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951EE3401CF71B0900F6EB7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				951EE33F1CF71B0900F6EB7E /* HebrewVocab.app */,
+				951EE3561CF71B0900F6EB7E /* HebrewVocabTests.xctest */,
+				951EE3611CF71B0A00F6EB7E /* HebrewVocabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951EE3411CF71B0900F6EB7E /* HebrewVocab */ = {
+			isa = PBXGroup;
+			children = (
+				951EE3421CF71B0900F6EB7E /* AppDelegate.swift */,
+				951EE3441CF71B0900F6EB7E /* ViewController.swift */,
+				951EE3461CF71B0900F6EB7E /* Main.storyboard */,
+				951EE34C1CF71B0900F6EB7E /* Assets.xcassets */,
+				951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */,
+				951EE3511CF71B0900F6EB7E /* Info.plist */,
+				951EE3491CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld */,
+			);
+			path = HebrewVocab;
+			sourceTree = "<group>";
+		};
+		951EE3591CF71B0A00F6EB7E /* HebrewVocabTests */ = {
+			isa = PBXGroup;
+			children = (
+				951EE35A1CF71B0A00F6EB7E /* HebrewVocabTests.swift */,
+				951EE35C1CF71B0A00F6EB7E /* Info.plist */,
+			);
+			path = HebrewVocabTests;
+			sourceTree = "<group>";
+		};
+		951EE3641CF71B0A00F6EB7E /* HebrewVocabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */,
+				951EE3671CF71B0A00F6EB7E /* Info.plist */,
+			);
+			path = HebrewVocabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		951EE33E1CF71B0900F6EB7E /* HebrewVocab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951EE36A1CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocab" */;
+			buildPhases = (
+				951EE33B1CF71B0900F6EB7E /* Sources */,
+				951EE33C1CF71B0900F6EB7E /* Frameworks */,
+				951EE33D1CF71B0900F6EB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HebrewVocab;
+			productName = HebrewVocab;
+			productReference = 951EE33F1CF71B0900F6EB7E /* HebrewVocab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		951EE3551CF71B0900F6EB7E /* HebrewVocabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951EE36D1CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocabTests" */;
+			buildPhases = (
+				951EE3521CF71B0900F6EB7E /* Sources */,
+				951EE3531CF71B0900F6EB7E /* Frameworks */,
+				951EE3541CF71B0900F6EB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951EE3581CF71B0900F6EB7E /* PBXTargetDependency */,
+			);
+			name = HebrewVocabTests;
+			productName = HebrewVocabTests;
+			productReference = 951EE3561CF71B0900F6EB7E /* HebrewVocabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		951EE3601CF71B0A00F6EB7E /* HebrewVocabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951EE3701CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocabUITests" */;
+			buildPhases = (
+				951EE35D1CF71B0A00F6EB7E /* Sources */,
+				951EE35E1CF71B0A00F6EB7E /* Frameworks */,
+				951EE35F1CF71B0A00F6EB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951EE3631CF71B0A00F6EB7E /* PBXTargetDependency */,
+			);
+			name = HebrewVocabUITests;
+			productName = HebrewVocabUITests;
+			productReference = 951EE3611CF71B0A00F6EB7E /* HebrewVocabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951EE3371CF71B0900F6EB7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "michael wasserman";
+				TargetAttributes = {
+					951EE33E1CF71B0900F6EB7E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					951EE3551CF71B0900F6EB7E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 951EE33E1CF71B0900F6EB7E;
+					};
+					951EE3601CF71B0A00F6EB7E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 951EE33E1CF71B0900F6EB7E;
+					};
+				};
+			};
+			buildConfigurationList = 951EE33A1CF71B0900F6EB7E /* Build configuration list for PBXProject "HebrewVocab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951EE3361CF71B0900F6EB7E;
+			productRefGroup = 951EE3401CF71B0900F6EB7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951EE33E1CF71B0900F6EB7E /* HebrewVocab */,
+				951EE3551CF71B0900F6EB7E /* HebrewVocabTests */,
+				951EE3601CF71B0A00F6EB7E /* HebrewVocabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		951EE33D1CF71B0900F6EB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951EE3501CF71B0900F6EB7E /* LaunchScreen.storyboard in Resources */,
+				951EE34D1CF71B0900F6EB7E /* Assets.xcassets in Resources */,
+				951EE3481CF71B0900F6EB7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE3541CF71B0900F6EB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE35F1CF71B0A00F6EB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		951EE33B1CF71B0900F6EB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951EE34B1CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld in Sources */,
+				951EE3451CF71B0900F6EB7E /* ViewController.swift in Sources */,
+				951EE3431CF71B0900F6EB7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE3521CF71B0900F6EB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951EE35B1CF71B0A00F6EB7E /* HebrewVocabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951EE35D1CF71B0A00F6EB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951EE3661CF71B0A00F6EB7E /* HebrewVocabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		951EE3581CF71B0900F6EB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951EE33E1CF71B0900F6EB7E /* HebrewVocab */;
+			targetProxy = 951EE3571CF71B0900F6EB7E /* PBXContainerItemProxy */;
+		};
+		951EE3631CF71B0A00F6EB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951EE33E1CF71B0900F6EB7E /* HebrewVocab */;
+			targetProxy = 951EE3621CF71B0A00F6EB7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		951EE3461CF71B0900F6EB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951EE3471CF71B0900F6EB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951EE34F1CF71B0900F6EB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		951EE3681CF71B0A00F6EB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		951EE3691CF71B0A00F6EB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951EE36B1CF71B0A00F6EB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HebrewVocab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951EE36C1CF71B0A00F6EB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HebrewVocab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951EE36E1CF71B0A00F6EB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HebrewVocabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HebrewVocab.app/HebrewVocab";
+			};
+			name = Debug;
+		};
+		951EE36F1CF71B0A00F6EB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HebrewVocabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HebrewVocab.app/HebrewVocab";
+			};
+			name = Release;
+		};
+		951EE3711CF71B0A00F6EB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HebrewVocabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HebrewVocab;
+			};
+			name = Debug;
+		};
+		951EE3721CF71B0A00F6EB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HebrewVocabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HebrewVocab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		951EE33A1CF71B0900F6EB7E /* Build configuration list for PBXProject "HebrewVocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951EE3681CF71B0A00F6EB7E /* Debug */,
+				951EE3691CF71B0A00F6EB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951EE36A1CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951EE36B1CF71B0A00F6EB7E /* Debug */,
+				951EE36C1CF71B0A00F6EB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		951EE36D1CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951EE36E1CF71B0A00F6EB7E /* Debug */,
+				951EE36F1CF71B0A00F6EB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		951EE3701CF71B0A00F6EB7E /* Build configuration list for PBXNativeTarget "HebrewVocabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951EE3711CF71B0A00F6EB7E /* Debug */,
+				951EE3721CF71B0A00F6EB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		951EE3491CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				951EE34A1CF71B0900F6EB7E /* HebrewVocab.xcdatamodel */,
+			);
+			currentVersion = 951EE34A1CF71B0900F6EB7E /* HebrewVocab.xcdatamodel */;
+			path = HebrewVocab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 951EE3371CF71B0900F6EB7E /* Project object */;
+}
