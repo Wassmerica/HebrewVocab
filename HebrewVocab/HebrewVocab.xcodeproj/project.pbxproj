@@ -15,6 +15,9 @@
 		951EE3501CF71B0900F6EB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */; };
 		951EE35B1CF71B0A00F6EB7E /* HebrewVocabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE35A1CF71B0A00F6EB7E /* HebrewVocabTests.swift */; };
 		951EE3661CF71B0A00F6EB7E /* HebrewVocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */; };
+		951EE3751CFC51F500F6EB7E /* HChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3741CFC51F500F6EB7E /* HChar.swift */; };
+		951EE3771CFC52D400F6EB7E /* HWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3761CFC52D400F6EB7E /* HWord.swift */; };
+		951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3781CFC533D00F6EB7E /* WordRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		951EE3611CF71B0A00F6EB7E /* HebrewVocabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HebrewVocabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebrewVocabUITests.swift; sourceTree = "<group>"; };
 		951EE3671CF71B0A00F6EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951EE3741CFC51F500F6EB7E /* HChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HChar.swift; sourceTree = "<group>"; };
+		951EE3761CFC52D400F6EB7E /* HWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWord.swift; sourceTree = "<group>"; };
+		951EE3781CFC533D00F6EB7E /* WordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,14 @@
 		951EE3411CF71B0900F6EB7E /* HebrewVocab */ = {
 			isa = PBXGroup;
 			children = (
+				951EE3731CFC51E100F6EB7E /* Data */,
 				951EE3421CF71B0900F6EB7E /* AppDelegate.swift */,
 				951EE3441CF71B0900F6EB7E /* ViewController.swift */,
 				951EE3461CF71B0900F6EB7E /* Main.storyboard */,
-				951EE34C1CF71B0900F6EB7E /* Assets.xcassets */,
 				951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */,
 				951EE3511CF71B0900F6EB7E /* Info.plist */,
 				951EE3491CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld */,
+				951EE34C1CF71B0900F6EB7E /* Assets.xcassets */,
 			);
 			path = HebrewVocab;
 			sourceTree = "<group>";
@@ -126,6 +133,16 @@
 				951EE3671CF71B0A00F6EB7E /* Info.plist */,
 			);
 			path = HebrewVocabUITests;
+			sourceTree = "<group>";
+		};
+		951EE3731CFC51E100F6EB7E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				951EE3741CFC51F500F6EB7E /* HChar.swift */,
+				951EE3761CFC52D400F6EB7E /* HWord.swift */,
+				951EE3781CFC533D00F6EB7E /* WordRepository.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951EE3751CFC51F500F6EB7E /* HChar.swift in Sources */,
+				951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */,
 				951EE34B1CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld in Sources */,
 				951EE3451CF71B0900F6EB7E /* ViewController.swift in Sources */,
+				951EE3771CFC52D400F6EB7E /* HWord.swift in Sources */,
 				951EE3431CF71B0900F6EB7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
