@@ -9,13 +9,13 @@
 import Foundation
 
 class HWord {
-    var wordNum:NSNumber?
+    var wordSet:NSNumber?
     var hebrew:String?
     var english:String?
     
-    init(num:NSNumber, heb:String, eng:String) {
-        self.wordNum = num
-        self.hebrew = heb
+    init(set:NSNumber, heb:String, eng:String) {
+        self.wordSet = set
+        self.hebrew  = heb
         self.english = eng
     }
 }
