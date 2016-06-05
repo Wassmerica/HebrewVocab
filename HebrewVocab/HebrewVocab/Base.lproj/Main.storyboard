@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hhW-ED-Fnn">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="DBq-5O-29q">
+            <objects>
+                <tabBarController id="hhW-ED-Fnn" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="v3q-I3-0pt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="HWP-1l-LUw"/>
+                        <segue destination="W5a-ab-BPp" kind="relationship" relationship="viewControllers" id="5Hx-io-VdU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaT-Cs-YMm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-202" y="167"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HebrewVocab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WordsViewController" customModule="HebrewVocab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,14 +36,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIB-lm-q4N">
-                                <rect key="frame" x="496" y="550" width="84" height="30"/>
+                                <rect key="frame" x="496" y="501" width="84" height="30"/>
                                 <state key="normal" title="More Words"/>
                                 <connections>
                                     <action selector="moreWordsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFN-N0-Gfb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ej7-rz-shy">
-                                <rect key="frame" x="20" y="550" width="50" height="30"/>
+                                <rect key="frame" x="20" y="501" width="50" height="30"/>
                                 <state key="normal" title="Shuffle"/>
                                 <connections>
                                     <action selector="shuffleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJc-Vu-2hU"/>
@@ -118,6 +136,7 @@
                             <constraint firstItem="4uS-cn-J3U" firstAttribute="top" secondItem="52g-0Y-zhw" secondAttribute="bottom" constant="30" id="zQr-Ct-6PM"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="cit-7r-BMD"/>
                     <connections>
                         <outlet property="button1" destination="vEC-fe-VZ3" id="URP-yZ-GFA"/>
                         <outlet property="button2" destination="emf-Dz-iK7" id="E9J-ut-P9l"/>
@@ -129,6 +148,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="458" y="-68"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="RGZ-mB-Nws">
+            <objects>
+                <viewController id="W5a-ab-BPp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iHO-ez-VFu"/>
+                        <viewControllerLayoutGuide type="bottom" id="xnd-FR-t6c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oOY-k1-awx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="8ce-sv-ExU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UME-7u-OZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="648"/>
         </scene>
     </scenes>
 </document>

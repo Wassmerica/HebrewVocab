@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WordsViewController.swift
 //  HebrewVocab
 //
 //  Created by michael wasserman on 2016-05-26.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WordsViewController: UIViewController {
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "Words", image: nil, tag: 0)
+    }
+    
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!

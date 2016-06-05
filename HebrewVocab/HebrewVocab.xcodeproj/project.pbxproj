@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		951EE3431CF71B0900F6EB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3421CF71B0900F6EB7E /* AppDelegate.swift */; };
-		951EE3451CF71B0900F6EB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3441CF71B0900F6EB7E /* ViewController.swift */; };
+		951EE3451CF71B0900F6EB7E /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3441CF71B0900F6EB7E /* WordsViewController.swift */; };
 		951EE3481CF71B0900F6EB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951EE3461CF71B0900F6EB7E /* Main.storyboard */; };
 		951EE34B1CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3491CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld */; };
 		951EE34D1CF71B0900F6EB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951EE34C1CF71B0900F6EB7E /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		951EE3771CFC52D400F6EB7E /* HWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3761CFC52D400F6EB7E /* HWord.swift */; };
 		951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3781CFC533D00F6EB7E /* WordRepository.swift */; };
 		9549B2A31D008F250000AF83 /* Words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9549B2A21D008F250000AF83 /* Words.txt */; };
+		9549B2D61D0485280000AF83 /* ExpressionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549B2D51D0485280000AF83 /* ExpressionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 /* Begin PBXFileReference section */
 		951EE33F1CF71B0900F6EB7E /* HebrewVocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HebrewVocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951EE3421CF71B0900F6EB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		951EE3441CF71B0900F6EB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		951EE3441CF71B0900F6EB7E /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
 		951EE3471CF71B0900F6EB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		951EE34A1CF71B0900F6EB7E /* HebrewVocab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HebrewVocab.xcdatamodel; sourceTree = "<group>"; };
 		951EE34C1CF71B0900F6EB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		951EE3761CFC52D400F6EB7E /* HWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWord.swift; sourceTree = "<group>"; };
 		951EE3781CFC533D00F6EB7E /* WordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordRepository.swift; sourceTree = "<group>"; };
 		9549B2A21D008F250000AF83 /* Words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Words.txt; sourceTree = "<group>"; };
+		9549B2D51D0485280000AF83 /* ExpressionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,8 @@
 			children = (
 				951EE3731CFC51E100F6EB7E /* Data */,
 				951EE3421CF71B0900F6EB7E /* AppDelegate.swift */,
-				951EE3441CF71B0900F6EB7E /* ViewController.swift */,
+				951EE3441CF71B0900F6EB7E /* WordsViewController.swift */,
+				9549B2D51D0485280000AF83 /* ExpressionsViewController.swift */,
 				951EE3461CF71B0900F6EB7E /* Main.storyboard */,
 				951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */,
 				951EE3511CF71B0900F6EB7E /* Info.plist */,
@@ -282,8 +285,9 @@
 			files = (
 				951EE3751CFC51F500F6EB7E /* HChar.swift in Sources */,
 				951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */,
+				9549B2D61D0485280000AF83 /* ExpressionsViewController.swift in Sources */,
 				951EE34B1CF71B0900F6EB7E /* HebrewVocab.xcdatamodeld in Sources */,
-				951EE3451CF71B0900F6EB7E /* ViewController.swift in Sources */,
+				951EE3451CF71B0900F6EB7E /* WordsViewController.swift in Sources */,
 				951EE3771CFC52D400F6EB7E /* HWord.swift in Sources */,
 				951EE3431CF71B0900F6EB7E /* AppDelegate.swift in Sources */,
 			);
