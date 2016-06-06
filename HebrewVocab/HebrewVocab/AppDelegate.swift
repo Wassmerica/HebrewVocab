@@ -17,7 +17,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        deleteAllWords()
+        loadNewWords()
+        
         return true
+    }
+    
+    private func deleteAllWords() {
+        let fetchRequest = NSFetchRequest(entityName: "HWord")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        
+        do {
+            try managedObjectContext.executeRequest(deleteRequest)
+        } catch let error as NSError {
+            // TODO: handle the error
+            print("ERROR DELETING DATA: \(error.description)")
+        }
+    }
+    
+    private func loadNewWords() {
+        let filePath = NSBundle.mainBundle().pathForResource("words",ofType:"json")
+        
+        if let data = NSData(contentsOfFile: filePath!) {
+            do {
+                let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
+                for item in json as! [[String:String]] {
+                    let word = NSEntityDescription.insertNewObjectForEntityForName("HWord", inManagedObjectContext: managedObjectContext) as! HWord
+                    guard let eng = item["english"], let heb = item["hebrew"], let group = item["group"] else {
+                        continue
+                    }
+                    word.english = eng
+                    word.hebrew  = heb
+                    word.group   = Int(group)
+                    let defaults = NSUserDefaults.standardUserDefaults()
+                    defaults.setInteger(3, forKey: "maxGroup")
+                }
+                self.saveContext()
+            } catch {
+                print("error serializing JSON: \(error)")
+            }
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
