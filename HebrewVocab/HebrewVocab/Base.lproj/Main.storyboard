@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hhW-ED-Fnn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hhW-ED-Fnn">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -50,8 +50,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEC-fe-VZ3" userLabel="Button1">
-                                <rect key="frame" x="20" y="100" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="70" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -60,8 +60,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emf-Dz-iK7" userLabel="Button2">
-                                <rect key="frame" x="20" y="165" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="136" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -70,8 +70,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zab-iF-hQh" userLabel="Button3">
-                                <rect key="frame" x="20" y="230" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="202" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -80,8 +80,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52g-0Y-zhw" userLabel="Button4">
-                                <rect key="frame" x="20" y="295" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="268" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -90,8 +90,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uS-cn-J3U" userLabel="Button5">
-                                <rect key="frame" x="20" y="360" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="334" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -100,8 +100,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FS-8C-6Cg" userLabel="Button6">
-                                <rect key="frame" x="20" y="425" width="560" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <rect key="frame" x="20" y="400" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -115,25 +115,25 @@
                             <constraint firstItem="vEC-fe-VZ3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1AW-fZ-BbB"/>
                             <constraint firstItem="52g-0Y-zhw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2R0-Cf-Nj2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ej7-rz-shy" secondAttribute="bottom" constant="20" id="4tA-cA-uuf"/>
-                            <constraint firstItem="zab-iF-hQh" firstAttribute="top" secondItem="emf-Dz-iK7" secondAttribute="bottom" constant="30" id="74j-Xz-wx4"/>
+                            <constraint firstItem="zab-iF-hQh" firstAttribute="top" secondItem="emf-Dz-iK7" secondAttribute="bottom" constant="25" id="74j-Xz-wx4"/>
                             <constraint firstAttribute="trailing" secondItem="fIB-lm-q4N" secondAttribute="trailing" constant="20" id="Az9-EX-rKO"/>
-                            <constraint firstItem="9FS-8C-6Cg" firstAttribute="top" secondItem="4uS-cn-J3U" secondAttribute="bottom" constant="30" id="CNp-n7-UWz"/>
+                            <constraint firstItem="9FS-8C-6Cg" firstAttribute="top" secondItem="4uS-cn-J3U" secondAttribute="bottom" constant="25" id="CNp-n7-UWz"/>
                             <constraint firstItem="emf-Dz-iK7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="CQW-JP-Bnf"/>
                             <constraint firstItem="ej7-rz-shy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ecx-HK-hIe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fIB-lm-q4N" secondAttribute="bottom" constant="20" id="JUN-cq-mXi"/>
                             <constraint firstItem="4uS-cn-J3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Nac-cI-WP6"/>
                             <constraint firstAttribute="trailing" secondItem="4uS-cn-J3U" secondAttribute="trailing" constant="20" id="Ven-iT-zU2"/>
-                            <constraint firstItem="52g-0Y-zhw" firstAttribute="top" secondItem="zab-iF-hQh" secondAttribute="bottom" constant="30" id="YTc-MK-Pl8"/>
+                            <constraint firstItem="52g-0Y-zhw" firstAttribute="top" secondItem="zab-iF-hQh" secondAttribute="bottom" constant="25" id="YTc-MK-Pl8"/>
                             <constraint firstItem="zab-iF-hQh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ZHa-Sn-Bld"/>
                             <constraint firstAttribute="trailing" secondItem="9FS-8C-6Cg" secondAttribute="trailing" constant="20" id="fZC-SL-flt"/>
-                            <constraint firstItem="vEC-fe-VZ3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="fz7-rY-XVO"/>
+                            <constraint firstItem="vEC-fe-VZ3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="fz7-rY-XVO"/>
                             <constraint firstAttribute="trailing" secondItem="vEC-fe-VZ3" secondAttribute="trailing" constant="20" id="iUv-C9-MIq"/>
                             <constraint firstAttribute="trailing" secondItem="zab-iF-hQh" secondAttribute="trailing" constant="20" id="kpD-nL-qxy"/>
                             <constraint firstItem="9FS-8C-6Cg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="lp0-dt-ltt"/>
-                            <constraint firstItem="emf-Dz-iK7" firstAttribute="top" secondItem="vEC-fe-VZ3" secondAttribute="bottom" constant="30" id="pAH-v6-ve2"/>
+                            <constraint firstItem="emf-Dz-iK7" firstAttribute="top" secondItem="vEC-fe-VZ3" secondAttribute="bottom" constant="25" id="pAH-v6-ve2"/>
                             <constraint firstAttribute="trailing" secondItem="52g-0Y-zhw" secondAttribute="trailing" constant="20" id="wP6-33-hx0"/>
                             <constraint firstAttribute="trailing" secondItem="emf-Dz-iK7" secondAttribute="trailing" constant="20" id="zEW-1G-cod"/>
-                            <constraint firstItem="4uS-cn-J3U" firstAttribute="top" secondItem="52g-0Y-zhw" secondAttribute="bottom" constant="30" id="zQr-Ct-6PM"/>
+                            <constraint firstItem="4uS-cn-J3U" firstAttribute="top" secondItem="52g-0Y-zhw" secondAttribute="bottom" constant="25" id="zQr-Ct-6PM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="cit-7r-BMD"/>

@@ -118,5 +118,95 @@
         "english":"minute",
         "hebrew":"דַקָה",
         "group":"3"
+	},
+    {
+        "english":"restaurant",
+        "hebrew":"מִסְעָדָה",
+        "group":"4"
+	},
+    {
+        "english":"soft",
+        "hebrew":"רַךְ",
+        "group":"4"
+	},
+    {
+        "english":"bread",
+        "hebrew":"לֶחֶם",
+        "group":"4"
+	},
+    {
+        "english":"know (a person)",
+        "hebrew":"מַכִּיר",
+        "group":"4"
+	},
+    {
+        "english":"course (of a meal)",
+        "hebrew":"מָנָה",
+        "group":"4"
+	},
+    {
+        "english":"silence",
+        "hebrew":"שֶׁקֶט",
+        "group":"4"
+	},
+    {
+        "english":"remembered",
+        "hebrew":"נַזְכַּר",
+        "group":"5"
+	},
+    {
+        "english":"roof",
+        "hebrew":"גַג",
+        "group":"5"
+	},
+    {
+        "english":"garden",
+        "hebrew":"גַן",
+        "group":"5"
+	},
+    {
+        "english":"kitchen",
+        "hebrew":"מִטְבָּח",
+        "group":"5"
+	},
+    {
+        "english":"floor (story)",
+        "hebrew":"קוֹמָה",
+        "group":"5"
+	},
+    {
+        "english":"can",
+        "hebrew":"יָכוֹל",
+        "group":"5"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
+	},
+    {
+        "english":"hour",
+        "hebrew":"שָׁעָה",
+        "group":"6"
 	}
 ]

@@ -22,3 +22,15 @@ ten
 eats
 hour
 minute
+restaurant
+soft
+bread
+know (a person)
+course (of a meal)
+silence
+remembered
+roof
+garden
+kitchen
+floor (story)
+can
