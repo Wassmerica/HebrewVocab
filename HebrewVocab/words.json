@@ -180,33 +180,63 @@
         "group":"5"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"minutes",
+        "hebrew":"דַקוֹת",
         "group":"6"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"quarter",
+        "hebrew":"רֶבַע",
         "group":"6"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"half",
+        "hebrew":"חֵצִי",
         "group":"6"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"at night",
+        "hebrew":"בּלַיְלָה",
         "group":"6"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"asks (f)",
+        "hebrew":"שׁוֹאֶלֶת",
         "group":"6"
 	},
     {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
+        "english":"once",
+        "hebrew":"פַּעַם אַחַת",
         "group":"6"
+	},
+    {
+        "english":"says (f)",
+        "hebrew":"אוֹמֶרֶת",
+        "group":"7"
+	},
+    {
+        "english":"works (m)",
+        "hebrew":"עוֹבֵד",
+        "group":"7"
+	},
+    {
+        "english":"works (f)",
+        "hebrew":"עוֹבֶדֶת",
+        "group":"7"
+	},
+    {
+        "english":"no",
+        "hebrew":"לֹא",
+        "group":"7"
+	},
+    {
+        "english":"office",
+        "hebrew":"מִשְׂרָד",
+        "group":"7"
+	},
+    {
+        "english":"now",
+        "hebrew":"עַכְשָׁיו",
+        "group":"7"
 	}
 ]

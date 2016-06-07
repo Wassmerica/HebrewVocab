@@ -34,3 +34,9 @@ garden
 kitchen
 floor (story)
 can
+minutes
+quarter
+half
+at night
+asks (f)
+once
