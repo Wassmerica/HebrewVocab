@@ -40,3 +40,9 @@ half
 at night
 asks (f)
 once
+says (f)
+works (m)
+works (f)
+no
+office
+now
