@@ -15,12 +15,14 @@ class WordsViewController: UIViewController {
         tabBarItem = UITabBarItem(title: "Words", image: nil, tag: 0)
     }
     
+    @IBOutlet weak var navBar: UINavigationBar!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
     @IBOutlet weak var button5: UIButton!
     @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     var currentWords:Array<HWord>?
     
@@ -101,10 +103,32 @@ class WordsViewController: UIViewController {
         setUpWords()
     }
     
-    @IBAction func shuffleAction(sender: UIButton) {
+    @IBAction func backAction(sender: UIButton) {
+        currentWords = WordRepository.getLastSetOfWords()
+        setUpWords()
+    }
+    
+    @IBAction func langSwitchAction(sender: UIButton) {
+        //check button label - if it == english set "langToUse" to false - change button label
+        //else set "langToUse" to true - change button label to "english"
+    }
+    
+    private func useEnglish() -> Bool {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let langToUse = defaults.boolForKey("langToUse")
+        if langToUse == true {
+            return true
+        } else {
+            return false
+        }
     }
     
     private func setUpWords() {
+        
+        if useEnglish() {
+            
+        }
+        
         if let currWords = currentWords {
             button1.setTitle(currWords[0].hebrew, forState: .Normal)
             button2.setTitle(currWords[1].hebrew, forState: .Normal)
@@ -113,6 +137,15 @@ class WordsViewController: UIViewController {
             button5.setTitle(currWords[4].hebrew, forState: .Normal)
             button6.setTitle(currWords[5].hebrew, forState: .Normal)
         }
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let currGroup = defaults.integerForKey("currentGroup")
+        if currGroup == 0 {
+            backButton.hidden = true
+        } else {
+            backButton.hidden = false
+        }
+        navBar.topItem?.title = "Group \(currGroup)"
     }
 
 }

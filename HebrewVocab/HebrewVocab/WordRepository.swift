@@ -28,6 +28,20 @@ class WordRepository {
         }
     }
     
+    class func getLastSetOfWords() -> Array<HWord>? {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let lastSet = defaults.integerForKey("currentGroup") - 1
+        
+        if lastSet < 0 {
+            //we are at 0
+            defaults.setInteger(0, forKey: "currentGroup")
+            return fetchWordsByGroup(0)
+        } else {
+            defaults.setInteger(lastSet, forKey: "currentGroup")
+            return fetchWordsByGroup(lastSet)
+        }
+    }
+    
     class func getCurrentSetOfWords() -> Array<HWord> {
         let defaults = NSUserDefaults.standardUserDefaults()
         if defaults.integerForKey("currentGroup") > 0 {

@@ -43,10 +43,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ej7-rz-shy">
-                                <rect key="frame" x="20" y="501" width="50" height="30"/>
-                                <state key="normal" title="Shuffle"/>
+                                <rect key="frame" x="20" y="501" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="shuffleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yJc-Vu-2hU"/>
+                                    <action selector="backAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EXZ-6R-pL5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEC-fe-VZ3" userLabel="Button1">
@@ -109,9 +109,23 @@
                                     <action selector="button6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akR-a1-6vE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ued-yi-F4T">
+                                <rect key="frame" x="275" y="501" width="50" height="30"/>
+                                <state key="normal" title="English"/>
+                                <connections>
+                                    <action selector="langSwitchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MnK-k2-deB"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEM-Jq-YPb">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Words" id="cca-JH-4cx"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wEM-Jq-YPb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1A7-e8-tyE"/>
                             <constraint firstItem="vEC-fe-VZ3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1AW-fZ-BbB"/>
                             <constraint firstItem="52g-0Y-zhw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2R0-Cf-Nj2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ej7-rz-shy" secondAttribute="bottom" constant="20" id="4tA-cA-uuf"/>
@@ -122,28 +136,34 @@
                             <constraint firstItem="ej7-rz-shy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ecx-HK-hIe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fIB-lm-q4N" secondAttribute="bottom" constant="20" id="JUN-cq-mXi"/>
                             <constraint firstItem="4uS-cn-J3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Nac-cI-WP6"/>
+                            <constraint firstItem="wEM-Jq-YPb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="TYE-yY-Bp1"/>
                             <constraint firstAttribute="trailing" secondItem="4uS-cn-J3U" secondAttribute="trailing" constant="20" id="Ven-iT-zU2"/>
                             <constraint firstItem="52g-0Y-zhw" firstAttribute="top" secondItem="zab-iF-hQh" secondAttribute="bottom" constant="25" id="YTc-MK-Pl8"/>
                             <constraint firstItem="zab-iF-hQh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ZHa-Sn-Bld"/>
                             <constraint firstAttribute="trailing" secondItem="9FS-8C-6Cg" secondAttribute="trailing" constant="20" id="fZC-SL-flt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ued-yi-F4T" secondAttribute="bottom" constant="20" id="ffc-Lp-rjZ"/>
                             <constraint firstItem="vEC-fe-VZ3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="fz7-rY-XVO"/>
+                            <constraint firstItem="Ued-yi-F4T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hSD-Gw-Qtr"/>
                             <constraint firstAttribute="trailing" secondItem="vEC-fe-VZ3" secondAttribute="trailing" constant="20" id="iUv-C9-MIq"/>
                             <constraint firstAttribute="trailing" secondItem="zab-iF-hQh" secondAttribute="trailing" constant="20" id="kpD-nL-qxy"/>
                             <constraint firstItem="9FS-8C-6Cg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="lp0-dt-ltt"/>
                             <constraint firstItem="emf-Dz-iK7" firstAttribute="top" secondItem="vEC-fe-VZ3" secondAttribute="bottom" constant="25" id="pAH-v6-ve2"/>
                             <constraint firstAttribute="trailing" secondItem="52g-0Y-zhw" secondAttribute="trailing" constant="20" id="wP6-33-hx0"/>
+                            <constraint firstAttribute="trailing" secondItem="wEM-Jq-YPb" secondAttribute="trailing" id="ysu-9Q-YA4"/>
                             <constraint firstAttribute="trailing" secondItem="emf-Dz-iK7" secondAttribute="trailing" constant="20" id="zEW-1G-cod"/>
                             <constraint firstItem="4uS-cn-J3U" firstAttribute="top" secondItem="52g-0Y-zhw" secondAttribute="bottom" constant="25" id="zQr-Ct-6PM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="cit-7r-BMD"/>
                     <connections>
+                        <outlet property="backButton" destination="ej7-rz-shy" id="5PN-81-pZx"/>
                         <outlet property="button1" destination="vEC-fe-VZ3" id="URP-yZ-GFA"/>
                         <outlet property="button2" destination="emf-Dz-iK7" id="E9J-ut-P9l"/>
                         <outlet property="button3" destination="zab-iF-hQh" id="1Au-Pp-lfl"/>
                         <outlet property="button4" destination="52g-0Y-zhw" id="2SE-bc-tvK"/>
                         <outlet property="button5" destination="4uS-cn-J3U" id="rPQ-0S-BsW"/>
                         <outlet property="button6" destination="9FS-8C-6Cg" id="RiJ-Yh-tW5"/>
+                        <outlet property="navBar" destination="wEM-Jq-YPb" id="Fdh-3T-SgK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
