@@ -238,5 +238,125 @@
         "english":"now",
         "hebrew":"עַכְשָׁיו",
         "group":"7"
+	},
+    {
+        "english":"ill (m)",
+        "hebrew":"חוֹלֶה",
+        "group":"8"
+	},
+    {
+        "english":"yes",
+        "hebrew":"כֵּן",
+        "group":"8"
+	},
+    {
+        "english":"belonging to",
+        "hebrew":"שֶׁל",
+        "group":"8"
+	},
+    {
+        "english":"hard",
+        "hebrew":"קָשֶׁה",
+        "group":"8"
+	},
+    {
+        "english":"goes (m)",
+        "hebrew":"הוֹלֵךְ",
+        "group":"8"
+	},
+    {
+        "english":"eleven",
+        "hebrew":"אַחַת—עֶשְׂרֵה",
+        "group":"8"
+	},
+    {
+        "english":"he",
+        "hebrew":"הוּא",
+        "group":"9"
+	},
+    {
+        "english":"big (m)",
+        "hebrew":"גָדוֹל",
+        "group":"9"
+	},
+    {
+        "english":"far (m)",
+        "hebrew":"רָחוֹק",
+        "group":"9"
+	},
+    {
+        "english":"gets up (m)",
+        "hebrew":"קָם",
+        "group":"9"
+	},
+    {
+        "english":"sees (m)",
+        "hebrew":"רוֹאֶה",
+        "group":"9"
+	},
+    {
+        "english":"tired (m)",
+        "hebrew":"עָיֵף",
+        "group":"9"
+	},
+    {
+        "english":"sits (m)",
+        "hebrew":"יוֹשֵׁב",
+        "group":"10"
+	},
+    {
+        "english":"another (m)",
+        "hebrew":"אַהֵר",
+        "group":"10"
+	},
+    {
+        "english":"from",
+        "hebrew":"מִן",
+        "group":"10"
+	},
+    {
+        "english":"bank",
+        "hebrew":"בַּנְק",
+        "group":"10"
+	},
+    {
+        "english":"to, until",
+        "hebrew":"עַד",
+        "group":"10"
+	},
+    {
+        "english":"after",
+        "hebrew":"אַחֲרֵי",
+        "group":"10"
+	},
+    {
+        "english":"clerk (f)",
+        "hebrew":"פְּקִידָה",
+        "group":"11"
+	},
+    {
+        "english":"work",
+        "hebrew":"עֲבוֹדָה",
+        "group":"11"
+	},
+    {
+        "english":"morning",
+        "hebrew":"בּוֹקֶר",
+        "group":"11"
+	},
+    {
+        "english":"meal",
+        "hebrew":"אֲרוּחָה",
+        "group":"11"
+	},
+    {
+        "english":"breakfast",
+        "hebrew":"אֲרוּחַת בּוֹקֶר",
+        "group":"11"
+	},
+    {
+        "english":"noon",
+        "hebrew":"צָהֳרַיִם",
+        "group":"11"
 	}
 ]

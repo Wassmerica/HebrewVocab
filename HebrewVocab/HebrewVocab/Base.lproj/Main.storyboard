@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-202" y="167"/>
         </scene>
-        <!--Item-->
+        <!--Words-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WordsViewController" customModule="HebrewVocab" customModuleProvider="target" sceneMemberID="viewController">
@@ -174,7 +174,7 @@
                             <constraint firstAttribute="trailing" secondItem="wEM-Jq-YPb" secondAttribute="trailing" id="ysu-9Q-YA4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="cit-7r-BMD"/>
+                    <tabBarItem key="tabBarItem" title="Words" id="cit-7r-BMD"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="backButton" destination="ej7-rz-shy" id="5PN-81-pZx"/>
@@ -192,7 +192,7 @@
             </objects>
             <point key="canvasLocation" x="458" y="-68"/>
         </scene>
-        <!--Item-->
+        <!--Phrases-->
         <scene sceneID="RGZ-mB-Nws">
             <objects>
                 <viewController id="W5a-ab-BPp" sceneMemberID="viewController">
@@ -205,7 +205,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="8ce-sv-ExU"/>
+                    <tabBarItem key="tabBarItem" title="Phrases" id="8ce-sv-ExU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UME-7u-OZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
