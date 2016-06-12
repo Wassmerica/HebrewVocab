@@ -19,9 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         deleteAllWords()
+        deleteAllPhrases()
         loadNewWords()
+        //loadNewPhrases()
         
         return true
+    }
+    
+    private func deleteAllPhrases() {
+        let fetchRequest = NSFetchRequest(entityName: "HPrase")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        
+        do {
+            try managedObjectContext.executeRequest(deleteRequest)
+        } catch let error as NSError {
+            // TODO: handle the error
+            print("ERROR DELETING DATA: \(error.description)")
+        }
     }
     
     private func deleteAllWords() {
@@ -55,7 +69,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
                 self.saveContext()
             } catch {
-                print("error serializing JSON: \(error)")
+                print("error serializing word JSON: \(error)")
+            }
+        }
+    }
+    
+    private func loadNewPhrases() {
+        let filePath = NSBundle.mainBundle().pathForResource("phrases",ofType:"json")
+        
+        if let data = NSData(contentsOfFile: filePath!) {
+            do {
+                let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
+                for item in json as! [[String:String]] {
+                    let phrase = NSEntityDescription.insertNewObjectForEntityForName("HPhrase", inManagedObjectContext: managedObjectContext) as! HWord
+                    guard let eng = item["english"], let heb = item["hebrew"], let group = item["group"] else {
+                        continue
+                    }
+                    phrase.english = eng
+                    phrase.hebrew  = heb
+                    phrase.group   = Int(group)
+                    let defaults = NSUserDefaults.standardUserDefaults()
+                    defaults.setInteger(13, forKey: "maxGroup")
+                }
+                self.saveContext()
+            } catch {
+                print("error serializing phrase JSON: \(error)")
             }
         }
     }
