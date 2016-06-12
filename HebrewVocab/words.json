@@ -358,5 +358,65 @@
         "english":"noon",
         "hebrew":"צָהֳרַיִם",
         "group":"11"
+	},
+    {
+        "english":"one",
+        "hebrew":"אַחַת",
+        "group":"12"
+	},
+    {
+        "english":"evening",
+        "hebrew":"עֶרֶב",
+        "group":"12"
+	},
+    {
+        "english":"to",
+        "hebrew":"אֶל",
+        "group":"12"
+	},
+    {
+        "english":"zero",
+        "hebrew":"אֶפֶס",
+        "group":"12"
+	},
+    {
+        "english":"there is not",
+        "hebrew":"אֵין",
+        "group":"12"
+	},
+    {
+        "english":"how much?",
+        "hebrew":"כַּמָה",
+        "group":"12"
+	},
+    {
+        "english":"heart",
+        "hebrew":"לֵב",
+        "group":"13"
+	},
+    {
+        "english":"hurts, aches",
+        "hebrew":"כּוֹאֵב",
+        "group":"13"
+	},
+    {
+        "english":"exactly",
+        "hebrew":"בְּדִיוּק",
+        "group":"13"
+	},
+    {
+        "english":"wedding",
+        "hebrew":"חַתוּנָה",
+        "group":"13"
+	},
+    {
+        "english":"I was",
+        "hebrew":"הָיִיתִי",
+        "group":"13"
+	},
+    {
+        "english":"forty",
+        "hebrew":"אַרְבָּעִים",
+        "group":"13"
 	}
 ]
