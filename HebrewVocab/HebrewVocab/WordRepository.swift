@@ -18,7 +18,7 @@ class WordRepository {
         let defaults = NSUserDefaults.standardUserDefaults()
         let nextSet = defaults.integerForKey("currentGroup") + 1
         
-        if nextSet > defaults.integerForKey("maxGroup") {
+        if nextSet > defaults.integerForKey("maxWordsGroup") {
             //no more sets of words - go back to 0
             defaults.setInteger(0, forKey: "currentGroup")
             return fetchWordsByGroup(0)
