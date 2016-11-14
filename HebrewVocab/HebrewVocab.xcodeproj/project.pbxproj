@@ -241,13 +241,16 @@
 					951EE33E1CF71B0900F6EB7E = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = XKN99LRMT9;
+						LastSwiftMigration = 0810;
 					};
 					951EE3551CF71B0900F6EB7E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 951EE33E1CF71B0900F6EB7E;
 					};
 					951EE3601CF71B0A00F6EB7E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 951EE33E1CF71B0900F6EB7E;
 					};
 				};
@@ -467,6 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -481,6 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -492,6 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HebrewVocab.app/HebrewVocab";
 			};
 			name = Debug;
@@ -504,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HebrewVocab.app/HebrewVocab";
 			};
 			name = Release;
@@ -515,6 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HebrewVocab;
 			};
 			name = Debug;
@@ -526,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocabUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = HebrewVocab;
 			};
 			name = Release;

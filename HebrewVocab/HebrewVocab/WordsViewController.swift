@@ -44,95 +44,95 @@ class WordsViewController: UIViewController {
     
     //MARK: - Word Button Methods
 
-    @IBAction func button1Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button1.titleLabel{
+    @IBAction func button1Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button1.titleLabel{
             if titleLabel.text == currWords[0].hebrew {
-                button1.setTitle(currWords[0].english, forState: .Normal)
+                button1.setTitle(currWords[0].english, for: UIControlState())
             } else {
-                button1.setTitle(currWords[0].hebrew, forState: .Normal)
+                button1.setTitle(currWords[0].hebrew, for: UIControlState())
             }
         }
     }
 
-    @IBAction func button2Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button2.titleLabel{
+    @IBAction func button2Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button2.titleLabel{
             if titleLabel.text == currWords[1].hebrew {
-                button2.setTitle(currWords[1].english, forState: .Normal)
+                button2.setTitle(currWords[1].english, for: UIControlState())
             } else {
-                button2.setTitle(currWords[1].hebrew, forState: .Normal)
+                button2.setTitle(currWords[1].hebrew, for: UIControlState())
             }
         }
     }
     
-    @IBAction func button3Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button3.titleLabel{
+    @IBAction func button3Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button3.titleLabel{
             if titleLabel.text == currWords[2].hebrew {
-                button3.setTitle(currWords[2].english, forState: .Normal)
+                button3.setTitle(currWords[2].english, for: UIControlState())
             } else {
-                button3.setTitle(currWords[2].hebrew, forState: .Normal)
+                button3.setTitle(currWords[2].hebrew, for: UIControlState())
             }
         }
     }
     
-    @IBAction func button4Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button4.titleLabel{
+    @IBAction func button4Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button4.titleLabel{
             if titleLabel.text == currWords[3].hebrew {
-                button4.setTitle(currWords[3].english, forState: .Normal)
+                button4.setTitle(currWords[3].english, for: UIControlState())
             } else {
-                button4.setTitle(currWords[3].hebrew, forState: .Normal)
+                button4.setTitle(currWords[3].hebrew, for: UIControlState())
             }
         }
     }
     
-    @IBAction func button5Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button5.titleLabel{
+    @IBAction func button5Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button5.titleLabel{
             if titleLabel.text == currWords[4].hebrew {
-                button5.setTitle(currWords[4].english, forState: .Normal)
+                button5.setTitle(currWords[4].english, for: UIControlState())
             } else {
-                button5.setTitle(currWords[4].hebrew, forState: .Normal)
+                button5.setTitle(currWords[4].hebrew, for: UIControlState())
             }
         }
     }
     
-    @IBAction func button6Action(sender: UIButton) {
-        if let currWords = currentWords, titleLabel = button6.titleLabel{
+    @IBAction func button6Action(_ sender: UIButton) {
+        if let currWords = currentWords, let titleLabel = button6.titleLabel{
             if titleLabel.text == currWords[5].hebrew {
-                button6.setTitle(currWords[5].english, forState: .Normal)
+                button6.setTitle(currWords[5].english, for: UIControlState())
             } else {
-                button6.setTitle(currWords[5].hebrew, forState: .Normal)
+                button6.setTitle(currWords[5].hebrew, for: UIControlState())
             }
         }
     }
     
     //MARK: - Other Button Methods
     
-    @IBAction func moreWordsAction(sender: UIButton) {
+    @IBAction func moreWordsAction(_ sender: UIButton) {
         currentWords = WordRepository.getNextSetOfWords()
         setUpWords()
     }
     
-    @IBAction func backAction(sender: UIButton) {
+    @IBAction func backAction(_ sender: UIButton) {
         currentWords = WordRepository.getLastSetOfWords()
         setUpWords()
     }
     
-    @IBAction func langSwitchAction(sender: UIButton) {
-        let defaults = NSUserDefaults.standardUserDefaults()
+    @IBAction func langSwitchAction(_ sender: UIButton) {
+        let defaults = UserDefaults.standard
         if sender.titleLabel?.text == "English" {
-            defaults.setBool(true, forKey: "langToUse")
-            sender.setTitle("Hebrew", forState: UIControlState.Normal)
+            defaults.set(true, forKey: "langToUse")
+            sender.setTitle("Hebrew", for: UIControlState())
             setUpWords()
         } else {
-            defaults.setBool(false, forKey: "langToUse")
-            sender.setTitle("English", forState: UIControlState.Normal)
+            defaults.set(false, forKey: "langToUse")
+            sender.setTitle("English", for: UIControlState())
             setUpWords()
         }
     }
     
     //MARK: - Helper Methods
-    private func useEnglish() -> Bool {
-        let defaults = NSUserDefaults.standardUserDefaults()
-        let langToUse = defaults.boolForKey("langToUse")
+    fileprivate func useEnglish() -> Bool {
+        let defaults = UserDefaults.standard
+        let langToUse = defaults.bool(forKey: "langToUse")
         if langToUse == true {
             return true
         } else {
@@ -140,40 +140,40 @@ class WordsViewController: UIViewController {
         }
     }
     
-    private func setUpWords() {
+    fileprivate func setUpWords() {
         if useEnglish() {
             if let currWords = currentWords {
-                button1.setTitle(currWords[0].english, forState: .Normal)
-                button2.setTitle(currWords[1].english, forState: .Normal)
-                button3.setTitle(currWords[2].english, forState: .Normal)
-                button4.setTitle(currWords[3].english, forState: .Normal)
-                button5.setTitle(currWords[4].english, forState: .Normal)
-                button6.setTitle(currWords[5].english, forState: .Normal)
+                button1.setTitle(currWords[0].english, for: UIControlState())
+                button2.setTitle(currWords[1].english, for: UIControlState())
+                button3.setTitle(currWords[2].english, for: UIControlState())
+                button4.setTitle(currWords[3].english, for: UIControlState())
+                button5.setTitle(currWords[4].english, for: UIControlState())
+                button6.setTitle(currWords[5].english, for: UIControlState())
             }
         } else {
             if let currWords = currentWords {
-                button1.setTitle(currWords[0].hebrew, forState: .Normal)
-                button2.setTitle(currWords[1].hebrew, forState: .Normal)
-                button3.setTitle(currWords[2].hebrew, forState: .Normal)
-                button4.setTitle(currWords[3].hebrew, forState: .Normal)
-                button5.setTitle(currWords[4].hebrew, forState: .Normal)
-                button6.setTitle(currWords[5].hebrew, forState: .Normal)
+                button1.setTitle(currWords[0].hebrew, for: UIControlState())
+                button2.setTitle(currWords[1].hebrew, for: UIControlState())
+                button3.setTitle(currWords[2].hebrew, for: UIControlState())
+                button4.setTitle(currWords[3].hebrew, for: UIControlState())
+                button5.setTitle(currWords[4].hebrew, for: UIControlState())
+                button6.setTitle(currWords[5].hebrew, for: UIControlState())
             }
         }
         
-        let defaults = NSUserDefaults.standardUserDefaults()
-        let currGroup = defaults.integerForKey("currentGroup")
+        let defaults = UserDefaults.standard
+        let currGroup = defaults.integer(forKey: "currentGroup")
         if currGroup == 0 {
-            backButton.hidden = true
+            backButton.isHidden = true
         } else {
-            backButton.hidden = false
+            backButton.isHidden = false
         }
         navBar.topItem?.title = "Group \(currGroup)"
     }
 
-    private func adjustScreenForDevice() {
-        if UIDevice().userInterfaceIdiom == .Phone {
-            switch UIScreen.mainScreen().nativeBounds.height {
+    fileprivate func adjustScreenForDevice() {
+        if UIDevice().userInterfaceIdiom == .phone {
+            switch UIScreen.main.nativeBounds.height {
             case 480:
                 //iPhone Classic
                 containerToConstraint.constant = 20

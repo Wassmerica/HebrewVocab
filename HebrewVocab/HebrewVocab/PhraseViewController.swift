@@ -30,15 +30,15 @@ class PhraseViewController: UIViewController {
     
     //MARK: - Word Button Methods
     
-    @IBAction func button1Action(sender: UIButton) {
+    @IBAction func button1Action(_ sender: UIButton) {
 
     }
     
-    @IBAction func button2Action(sender: UIButton) {
+    @IBAction func button2Action(_ sender: UIButton) {
 
     }
     
-    @IBAction func button3Action(sender: UIButton) {
+    @IBAction func button3Action(_ sender: UIButton) {
         /*if let currWords = currentWords, titleLabel = button3.titleLabel{
             if titleLabel.text == currWords[2].hebrew {
                 button3.setTitle(currWords[2].english, forState: .Normal)
@@ -48,15 +48,15 @@ class PhraseViewController: UIViewController {
         }*/
     }
 
-    @IBAction func moreAction(sender: UIButton) {
+    @IBAction func moreAction(_ sender: UIButton) {
 
     }
     
-    @IBAction func backAction(sender: UIButton) {
+    @IBAction func backAction(_ sender: UIButton) {
 
     }
     
-    @IBAction func langSwitchAction(sender: UIButton) {
+    @IBAction func langSwitchAction(_ sender: UIButton) {
 
     }
 
