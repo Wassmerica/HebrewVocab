@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hhW-ED-Fnn">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hhW-ED-Fnn">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -13,7 +17,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="v3q-I3-0pt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="HWP-1l-LUw"/>
@@ -70,7 +74,7 @@
                                         <rect key="frame" x="0.0" y="10" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N24-Sd-8ex"/>
@@ -80,7 +84,7 @@
                                         <rect key="frame" x="0.0" y="69" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcW-DM-rMy"/>
@@ -90,7 +94,7 @@
                                         <rect key="frame" x="0.0" y="128" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRf-zX-WeV"/>
@@ -100,7 +104,7 @@
                                         <rect key="frame" x="0.0" y="187" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiB-V9-W5v"/>
@@ -110,7 +114,7 @@
                                         <rect key="frame" x="0.0" y="246" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPe-Y0-FBK"/>
@@ -120,14 +124,14 @@
                                         <rect key="frame" x="0.0" y="305" width="280" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <state key="normal" title="Button">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="button6Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akR-a1-6vE"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="52g-0Y-zhw" secondAttribute="trailing" id="7Xi-NG-OVU"/>
                                     <constraint firstAttribute="trailing" secondItem="4uS-cn-J3U" secondAttribute="trailing" id="7kj-IO-J7S"/>
@@ -158,7 +162,7 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wEM-Jq-YPb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1A7-e8-tyE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ej7-rz-shy" secondAttribute="bottom" constant="20" id="4tA-cA-uuf"/>
@@ -176,7 +180,6 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Words" id="cit-7r-BMD"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="backButton" destination="ej7-rz-shy" id="5PN-81-pZx"/>
                         <outlet property="button1" destination="vEC-fe-VZ3" id="URP-yZ-GFA"/>
@@ -191,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="458" y="-68"/>
+            <point key="canvasLocation" x="711" y="-71"/>
         </scene>
         <!--Phrases-->
         <scene sceneID="RGZ-mB-Nws">
@@ -232,7 +235,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kij-it-oUA">
                                         <rect key="frame" x="18" y="70" width="244" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        </state>
                                         <connections>
                                             <action selector="button1Action:" destination="W5a-ab-BPp" eventType="touchUpInside" id="rMy-SW-k2u"/>
                                         </connections>
@@ -240,7 +245,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajz-b9-2g1">
                                         <rect key="frame" x="10" y="228" width="260" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button3Action:" destination="W5a-ab-BPp" eventType="touchUpInside" id="uCb-ec-RUN"/>
                                         </connections>
@@ -248,13 +255,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzy-y1-ba2">
                                         <rect key="frame" x="10" y="149" width="260" height="39"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button2Action:" destination="W5a-ab-BPp" eventType="touchUpInside" id="tC3-UO-for"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="ajz-b9-2g1" firstAttribute="leading" secondItem="91b-0S-2wY" secondAttribute="leading" constant="10" id="BBd-6x-3BV"/>
                                     <constraint firstItem="kij-it-oUA" firstAttribute="leading" secondItem="91b-0S-2wY" secondAttribute="leadingMargin" constant="10" id="E2O-Ph-brP"/>
@@ -274,7 +283,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Cbb-qK-BIa" firstAttribute="centerX" secondItem="oOY-k1-awx" secondAttribute="centerX" id="2FF-CA-mFQ"/>
                             <constraint firstAttribute="trailing" secondItem="8jz-R3-046" secondAttribute="trailing" constant="20" id="EKp-Up-Fh4"/>
@@ -292,18 +301,18 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Phrases" id="8ce-sv-ExU"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="backButton" destination="UDq-dz-aua" id="5aJ-BM-lQe"/>
                         <outlet property="button1" destination="kij-it-oUA" id="nSI-ii-PGr"/>
                         <outlet property="button2" destination="Dzy-y1-ba2" id="TRv-m5-uFd"/>
                         <outlet property="button3" destination="ajz-b9-2g1" id="PQJ-ic-chs"/>
+                        <outlet property="containerToConstraint" destination="Edg-MB-TXG" id="Cde-01-HYy"/>
                         <outlet property="navBar" destination="dU4-di-uzL" id="KyG-0W-ST6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UME-7u-OZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="458" y="648"/>
+            <point key="canvasLocation" x="711" y="642"/>
         </scene>
     </scenes>
 </document>

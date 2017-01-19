@@ -1,33 +1,62 @@
 [
-	{
-		"english":"What time is it?",
-		"hebrew":"מָה הַשָׁעָה",
-		"group":"0"
-	},	
-	{
-		"english":"At what time?",
-		"hebrew":"?בְּאֵיזוֹ הַשָׁעָה",
-		"group":"0"
-	},
-	{
-		"english":"At eight o'clock",
-		"hebrew":"בְּשָׁעָה שְׁמוֹנֶה",
-		"group":"0"
-	},
-	{
-		"english":"At this moment",
-		"hebrew":"בְּרֶגַע זֶה",
-		"group":"0"
-	},
-	{
-		"english":"Is that you?",
-		"hebrew":"?זֶה אַתָּה",
-		"group":"0"
-	},
-	{
-		"english":"from...to",
-		"hebrew":"...מִן...עֵד",
-		"group":"0"
-	}
-
+  {
+    "english": "What time is it?",
+    "hebrew": "מָה הַשָׁעָה",
+    "group": "0"
+  },
+  {
+    "english": "At what time?",
+    "hebrew": "בְּאֵיזוֹ הַשָׁעָה?",
+    "group": "0"
+  },
+  {
+    "english": "At eight o'clock",
+    "hebrew": "בְּשָׁעָה שְׁמוֹנֶה",
+    "group": "0"
+  },
+  {
+    "english": "At this moment",
+    "hebrew": "בְּרֶגַע זֶה",
+    "group": "1"
+  },
+  {
+    "english": "Is that you?",
+    "hebrew": "?זֶה אַתָּה",
+    "group": "1"
+  },
+  {
+    "english": "from...to",
+    "hebrew": "...מִן...עֵד",
+    "group": "1"
+  },
+  {
+    "english": "We are in a hurry",
+    "hebrew": "אֲנַחְנוּ ְמְמַהֲרִים",
+    "group": "2"
+  },
+  {
+    "english": "My pleasure",
+    "hebrew": "נָעִים מְאוד",
+    "group": "2"
+  },
+  {
+    "english": "Another time",
+    "hebrew": "פַּעַם אַחֶרֶת",
+    "group": "2"
+  },
+  {
+    "english": "How old are you? (m)",
+    "hebrew": "בּן כַּמָה אַתָּה",
+    "group": "3"
+  },
+  {
+    "english": "Please, be seated",
+    "hebrew": "בְּבַקָשָׁה לָשֶׁבֶת",
+    "group": "3"
+  },
+  {
+    "english": "A long time",
+    "hebrew": "הַרְבֵּה זְמַן",
+    "group": "3"
+  }
 ]

@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         deleteAllWords()
         deleteAllPhrases()
         loadNewWords()
-        //loadNewPhrases()
+        loadNewPhrases()
         
         return true
     }
@@ -81,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
                 for item in json as! [[String:String]] {
-                    let phrase = NSEntityDescription.insertNewObject(forEntityName: "HPhrase", into: managedObjectContext) as! HWord
+                    let phrase = NSEntityDescription.insertNewObject(forEntityName: "HPhrase", into: managedObjectContext) as! HPhrase
                     guard let eng = item["english"], let heb = item["hebrew"], let group = item["group"] else {
                         continue
                     }
@@ -89,7 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     phrase.hebrew  = heb
                     phrase.group   = Int(group) as NSNumber?
                     let defaults = UserDefaults.standard
-                    defaults.set(0, forKey: "maxPhrasesGroup")
+                    defaults.set(3, forKey: "maxPhrasesGroup")
                 }
                 self.saveContext()
             } catch {
