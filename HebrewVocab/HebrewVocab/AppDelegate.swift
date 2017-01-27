@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     word.hebrew  = heb
                     word.group   = Int(group) as NSNumber?
                     let defaults = UserDefaults.standard
-                    defaults.set(13, forKey: "maxWordsGroup")
+                    defaults.set(17, forKey: "maxWordsGroup")
                 }
                 self.saveContext()
             } catch {

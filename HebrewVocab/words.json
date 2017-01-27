@@ -1,422 +1,542 @@
 [
-	{
-		"english":"I",
-		"hebrew":"אַנִי",
-		"group":"0"
-	},
-	{
-		"english":"she",
-		"hebrew":"הִיא",
-		"group":"0"
-	},
-	{
-		"english":"house",
-		"hebrew":"בַּיִת",
-		"group":"0"
-	},
-	{
-		"english":"street",
-		"hebrew":"רְחוֹב",
-		"group":"0"
-	},
-	{
-		"english":"which?",
-		"hebrew":"אֵיזֶה",
-		"group":"0"
-	},
-	{
-		"english":"next to me",
-		"hebrew":"עַל יָדִי",
-		"group":"0"
-	},
-	{
-		"english":"many thanks",
-		"hebrew":"תּוֹדָה רַבָּה",
-		"group":"1"
-	},
-	{
-		"english":"secretary",
-		"hebrew":"מַזְכִּירָה",
-		"group":"1"
-	},
-	{
-		"english":"good (m)",
-		"hebrew":"טוֹב",
-		"group":"1"
-	},
-	{
-		"english":"really?",
-		"hebrew":"בֶּאֱמֶת",
-		"group":"1"
-	},
-	{
-		"english":"wife, woman",
-		"hebrew":"אִישָׁה",
-		"group":"1"
-	},
-	{
-		"english":"who?",
-		"hebrew":"מִי",
-		"group":"1"
-	},
-	{
-		"english":"picture",
-		"hebrew":"תְּמוּנָה",
-		"group":"2"
-	},
-	{
-		"english":"name",
-		"hebrew":"שֵׁם",
-		"group":"2"
-	},
-	{
-		"english":"family",
-		"hebrew":"מִשְׁפָּחָה",
-		"group":"2"
-	},
-	{
-		"english":"do (m)",
-		"hebrew":"עוֹשָׂה",
-		"group":"2"
-	},
-	{
-		"english":"doctor",
-		"hebrew":"רוֹפֵא",
-		"group":"2"
-	},
-	{
-		"english":"live (m)",
-		"hebrew":"גָר",
-		"group":"2"
-	},
-	{
-		"english":"conversation",
-		"hebrew":"שִׂיחָה",
-		"group":"3"
-	},
-	{
-		"english":"number",
-		"hebrew":"מִסְפָּר",
-		"group":"3"
-	},
-    {
-        "english":"ten",
-        "hebrew":"עֶשֶׂר",
-        "group":"3"
-	},
-    {
-        "english":"eats",
-        "hebrew":"אוֹכֵל",
-        "group":"3"
-	},
-    {
-        "english":"hour",
-        "hebrew":"שָׁעָה",
-        "group":"3"
-	},
-    {
-        "english":"minute",
-        "hebrew":"דַקָה",
-        "group":"3"
-	},
-    {
-        "english":"restaurant",
-        "hebrew":"מִסְעָדָה",
-        "group":"4"
-	},
-    {
-        "english":"soft",
-        "hebrew":"רַךְ",
-        "group":"4"
-	},
-    {
-        "english":"bread",
-        "hebrew":"לֶחֶם",
-        "group":"4"
-	},
-    {
-        "english":"know (a person)",
-        "hebrew":"מַכִּיר",
-        "group":"4"
-	},
-    {
-        "english":"course (of a meal)",
-        "hebrew":"מָנָה",
-        "group":"4"
-	},
-    {
-        "english":"silence",
-        "hebrew":"שֶׁקֶט",
-        "group":"4"
-	},
-    {
-        "english":"remembered",
-        "hebrew":"נַזְכַּר",
-        "group":"5"
-	},
-    {
-        "english":"roof",
-        "hebrew":"גַג",
-        "group":"5"
-	},
-    {
-        "english":"garden",
-        "hebrew":"גַן",
-        "group":"5"
-	},
-    {
-        "english":"kitchen",
-        "hebrew":"מִטְבָּח",
-        "group":"5"
-	},
-    {
-        "english":"floor (story)",
-        "hebrew":"קוֹמָה",
-        "group":"5"
-	},
-    {
-        "english":"can",
-        "hebrew":"יָכוֹל",
-        "group":"5"
-	},
-    {
-        "english":"minutes",
-        "hebrew":"דַקוֹת",
-        "group":"6"
-	},
-    {
-        "english":"quarter",
-        "hebrew":"רֶבַע",
-        "group":"6"
-	},
-    {
-        "english":"half",
-        "hebrew":"חֵצִי",
-        "group":"6"
-	},
-    {
-        "english":"at night",
-        "hebrew":"בּלַיְלָה",
-        "group":"6"
-	},
-    {
-        "english":"asks (f)",
-        "hebrew":"שׁוֹאֶלֶת",
-        "group":"6"
-	},
-    {
-        "english":"once",
-        "hebrew":"פַּעַם אַחַת",
-        "group":"6"
-	},
-    {
-        "english":"says (f)",
-        "hebrew":"אוֹמֶרֶת",
-        "group":"7"
-	},
-    {
-        "english":"works (m)",
-        "hebrew":"עוֹבֵד",
-        "group":"7"
-	},
-    {
-        "english":"works (f)",
-        "hebrew":"עוֹבֶדֶת",
-        "group":"7"
-	},
-    {
-        "english":"no",
-        "hebrew":"לֹא",
-        "group":"7"
-	},
-    {
-        "english":"office",
-        "hebrew":"מִשְׂרָד",
-        "group":"7"
-	},
-    {
-        "english":"now",
-        "hebrew":"עַכְשָׁיו",
-        "group":"7"
-	},
-    {
-        "english":"ill (m)",
-        "hebrew":"חוֹלֶה",
-        "group":"8"
-	},
-    {
-        "english":"yes",
-        "hebrew":"כֵּן",
-        "group":"8"
-	},
-    {
-        "english":"belonging to",
-        "hebrew":"שֶׁל",
-        "group":"8"
-	},
-    {
-        "english":"hard",
-        "hebrew":"קָשֶׁה",
-        "group":"8"
-	},
-    {
-        "english":"goes (m)",
-        "hebrew":"הוֹלֵךְ",
-        "group":"8"
-	},
-    {
-        "english":"eleven",
-        "hebrew":"אַחַת—עֶשְׂרֵה",
-        "group":"8"
-	},
-    {
-        "english":"he",
-        "hebrew":"הוּא",
-        "group":"9"
-	},
-    {
-        "english":"big (m)",
-        "hebrew":"גָדוֹל",
-        "group":"9"
-	},
-    {
-        "english":"far (m)",
-        "hebrew":"רָחוֹק",
-        "group":"9"
-	},
-    {
-        "english":"gets up (m)",
-        "hebrew":"קָם",
-        "group":"9"
-	},
-    {
-        "english":"sees (m)",
-        "hebrew":"רוֹאֶה",
-        "group":"9"
-	},
-    {
-        "english":"tired (m)",
-        "hebrew":"עָיֵף",
-        "group":"9"
-	},
-    {
-        "english":"sits (m)",
-        "hebrew":"יוֹשֵׁב",
-        "group":"10"
-	},
-    {
-        "english":"another (m)",
-        "hebrew":"אַהֵר",
-        "group":"10"
-	},
-    {
-        "english":"from",
-        "hebrew":"מִן",
-        "group":"10"
-	},
-    {
-        "english":"bank",
-        "hebrew":"בַּנְק",
-        "group":"10"
-	},
-    {
-        "english":"to, until",
-        "hebrew":"עַד",
-        "group":"10"
-	},
-    {
-        "english":"after",
-        "hebrew":"אַחֲרֵי",
-        "group":"10"
-	},
-    {
-        "english":"clerk (f)",
-        "hebrew":"פְּקִידָה",
-        "group":"11"
-	},
-    {
-        "english":"work",
-        "hebrew":"עֲבוֹדָה",
-        "group":"11"
-	},
-    {
-        "english":"morning",
-        "hebrew":"בּוֹקֶר",
-        "group":"11"
-	},
-    {
-        "english":"meal",
-        "hebrew":"אֲרוּחָה",
-        "group":"11"
-	},
-    {
-        "english":"breakfast",
-        "hebrew":"אֲרוּחַת בּוֹקֶר",
-        "group":"11"
-	},
-    {
-        "english":"noon",
-        "hebrew":"צָהֳרַיִם",
-        "group":"11"
-	},
-    {
-        "english":"one",
-        "hebrew":"אַחַת",
-        "group":"12"
-	},
-    {
-        "english":"evening",
-        "hebrew":"עֶרֶב",
-        "group":"12"
-	},
-    {
-        "english":"to",
-        "hebrew":"אֶל",
-        "group":"12"
-	},
-    {
-        "english":"zero",
-        "hebrew":"אֶפֶס",
-        "group":"12"
-	},
-    {
-        "english":"there is not",
-        "hebrew":"אֵין",
-        "group":"12"
-	},
-    {
-        "english":"how much?",
-        "hebrew":"כַּמָה",
-        "group":"12"
-	},
-    {
-        "english":"heart",
-        "hebrew":"לֵב",
-        "group":"13"
-	},
-    {
-        "english":"hurts, aches",
-        "hebrew":"כּוֹאֵב",
-        "group":"13"
-	},
-    {
-        "english":"exactly",
-        "hebrew":"בְּדִיוּק",
-        "group":"13"
-	},
-    {
-        "english":"wedding",
-        "hebrew":"חַתוּנָה",
-        "group":"13"
-	},
-    {
-        "english":"I was",
-        "hebrew":"הָיִיתִי",
-        "group":"13"
-	},
-    {
-        "english":"forty",
-        "hebrew":"אַרְבָּעִים",
-        "group":"13"
-	}
+  {
+    "english": "I",
+    "hebrew": "אַנִי",
+    "group": "0"
+  },
+  {
+    "english": "she",
+    "hebrew": "הִיא",
+    "group": "0"
+  },
+  {
+    "english": "house",
+    "hebrew": "בַּיִת",
+    "group": "0"
+  },
+  {
+    "english": "street",
+    "hebrew": "רְחוֹב",
+    "group": "0"
+  },
+  {
+    "english": "which?",
+    "hebrew": "אֵיזֶה",
+    "group": "0"
+  },
+  {
+    "english": "next to me",
+    "hebrew": "עַל יָדִי",
+    "group": "0"
+  },
+  {
+    "english": "many thanks",
+    "hebrew": "תּוֹדָה רַבָּה",
+    "group": "1"
+  },
+  {
+    "english": "secretary",
+    "hebrew": "מַזְכִּירָה",
+    "group": "1"
+  },
+  {
+    "english": "good (m)",
+    "hebrew": "טוֹב",
+    "group": "1"
+  },
+  {
+    "english": "really?",
+    "hebrew": "בֶּאֱמֶת",
+    "group": "1"
+  },
+  {
+    "english": "wife, woman",
+    "hebrew": "אִישָׁה",
+    "group": "1"
+  },
+  {
+    "english": "who?",
+    "hebrew": "מִי",
+    "group": "1"
+  },
+  {
+    "english": "picture",
+    "hebrew": "תְּמוּנָה",
+    "group": "2"
+  },
+  {
+    "english": "name",
+    "hebrew": "שֵׁם",
+    "group": "2"
+  },
+  {
+    "english": "family",
+    "hebrew": "מִשְׁפָּחָה",
+    "group": "2"
+  },
+  {
+    "english": "do (m)",
+    "hebrew": "עוֹשָׂה",
+    "group": "2"
+  },
+  {
+    "english": "doctor",
+    "hebrew": "רוֹפֵא",
+    "group": "2"
+  },
+  {
+    "english": "live (m)",
+    "hebrew": "גָר",
+    "group": "2"
+  },
+  {
+    "english": "conversation",
+    "hebrew": "שִׂיחָה",
+    "group": "3"
+  },
+  {
+    "english": "number",
+    "hebrew": "מִסְפָּר",
+    "group": "3"
+  },
+  {
+    "english": "ten",
+    "hebrew": "עֶשֶׂר",
+    "group": "3"
+  },
+  {
+    "english": "eats",
+    "hebrew": "אוֹכֵל",
+    "group": "3"
+  },
+  {
+    "english": "hour",
+    "hebrew": "שָׁעָה",
+    "group": "3"
+  },
+  {
+    "english": "minute",
+    "hebrew": "דַקָה",
+    "group": "3"
+  },
+  {
+    "english": "restaurant",
+    "hebrew": "מִסְעָדָה",
+    "group": "4"
+  },
+  {
+    "english": "soft",
+    "hebrew": "רַךְ",
+    "group": "4"
+  },
+  {
+    "english": "bread",
+    "hebrew": "לֶחֶם",
+    "group": "4"
+  },
+  {
+    "english": "know (a person)",
+    "hebrew": "מַכִּיר",
+    "group": "4"
+  },
+  {
+    "english": "course (of a meal)",
+    "hebrew": "מָנָה",
+    "group": "4"
+  },
+  {
+    "english": "silence",
+    "hebrew": "שֶׁקֶט",
+    "group": "4"
+  },
+  {
+    "english": "remembered",
+    "hebrew": "נַזְכַּר",
+    "group": "5"
+  },
+  {
+    "english": "roof",
+    "hebrew": "גַג",
+    "group": "5"
+  },
+  {
+    "english": "garden",
+    "hebrew": "גַן",
+    "group": "5"
+  },
+  {
+    "english": "kitchen",
+    "hebrew": "מִטְבָּח",
+    "group": "5"
+  },
+  {
+    "english": "floor (story)",
+    "hebrew": "קוֹמָה",
+    "group": "5"
+  },
+  {
+    "english": "can",
+    "hebrew": "יָכוֹל",
+    "group": "5"
+  },
+  {
+    "english": "minutes",
+    "hebrew": "דַקוֹת",
+    "group": "6"
+  },
+  {
+    "english": "quarter",
+    "hebrew": "רֶבַע",
+    "group": "6"
+  },
+  {
+    "english": "half",
+    "hebrew": "חֵצִי",
+    "group": "6"
+  },
+  {
+    "english": "at night",
+    "hebrew": "בּלַיְלָה",
+    "group": "6"
+  },
+  {
+    "english": "asks (f)",
+    "hebrew": "שׁוֹאֶלֶת",
+    "group": "6"
+  },
+  {
+    "english": "once",
+    "hebrew": "פַּעַם אַחַת",
+    "group": "6"
+  },
+  {
+    "english": "says (f)",
+    "hebrew": "אוֹמֶרֶת",
+    "group": "7"
+  },
+  {
+    "english": "works (m)",
+    "hebrew": "עוֹבֵד",
+    "group": "7"
+  },
+  {
+    "english": "works (f)",
+    "hebrew": "עוֹבֶדֶת",
+    "group": "7"
+  },
+  {
+    "english": "no",
+    "hebrew": "לֹא",
+    "group": "7"
+  },
+  {
+    "english": "office",
+    "hebrew": "מִשְׂרָד",
+    "group": "7"
+  },
+  {
+    "english": "now",
+    "hebrew": "עַכְשָׁיו",
+    "group": "7"
+  },
+  {
+    "english": "ill (m)",
+    "hebrew": "חוֹלֶה",
+    "group": "8"
+  },
+  {
+    "english": "yes",
+    "hebrew": "כֵּן",
+    "group": "8"
+  },
+  {
+    "english": "belonging to",
+    "hebrew": "שֶׁל",
+    "group": "8"
+  },
+  {
+    "english": "hard",
+    "hebrew": "קָשֶׁה",
+    "group": "8"
+  },
+  {
+    "english": "goes (m)",
+    "hebrew": "הוֹלֵךְ",
+    "group": "8"
+  },
+  {
+    "english": "eleven",
+    "hebrew": "אַחַת—עֶשְׂרֵה",
+    "group": "8"
+  },
+  {
+    "english": "he",
+    "hebrew": "הוּא",
+    "group": "9"
+  },
+  {
+    "english": "big (m)",
+    "hebrew": "גָדוֹל",
+    "group": "9"
+  },
+  {
+    "english": "far (m)",
+    "hebrew": "רָחוֹק",
+    "group": "9"
+  },
+  {
+    "english": "gets up (m)",
+    "hebrew": "קָם",
+    "group": "9"
+  },
+  {
+    "english": "sees (m)",
+    "hebrew": "רוֹאֶה",
+    "group": "9"
+  },
+  {
+    "english": "tired (m)",
+    "hebrew": "עָיֵף",
+    "group": "9"
+  },
+  {
+    "english": "sits (m)",
+    "hebrew": "יוֹשֵׁב",
+    "group": "10"
+  },
+  {
+    "english": "another (m)",
+    "hebrew": "אַהֵר",
+    "group": "10"
+  },
+  {
+    "english": "from",
+    "hebrew": "מִן",
+    "group": "10"
+  },
+  {
+    "english": "bank",
+    "hebrew": "בַּנְק",
+    "group": "10"
+  },
+  {
+    "english": "to, until",
+    "hebrew": "עַד",
+    "group": "10"
+  },
+  {
+    "english": "after",
+    "hebrew": "אַחֲרֵי",
+    "group": "10"
+  },
+  {
+    "english": "clerk (f)",
+    "hebrew": "פְּקִידָה",
+    "group": "11"
+  },
+  {
+    "english": "work",
+    "hebrew": "עֲבוֹדָה",
+    "group": "11"
+  },
+  {
+    "english": "morning",
+    "hebrew": "בּוֹקֶר",
+    "group": "11"
+  },
+  {
+    "english": "meal",
+    "hebrew": "אֲרוּחָה",
+    "group": "11"
+  },
+  {
+    "english": "breakfast",
+    "hebrew": "אֲרוּחַת בּוֹקֶר",
+    "group": "11"
+  },
+  {
+    "english": "noon",
+    "hebrew": "צָהֳרַיִם",
+    "group": "11"
+  },
+  {
+    "english": "one",
+    "hebrew": "אַחַת",
+    "group": "12"
+  },
+  {
+    "english": "evening",
+    "hebrew": "עֶרֶב",
+    "group": "12"
+  },
+  {
+    "english": "to",
+    "hebrew": "אֶל",
+    "group": "12"
+  },
+  {
+    "english": "zero",
+    "hebrew": "אֶפֶס",
+    "group": "12"
+  },
+  {
+    "english": "there is not",
+    "hebrew": "אֵין",
+    "group": "12"
+  },
+  {
+    "english": "how much?",
+    "hebrew": "כַּמָה",
+    "group": "12"
+  },
+  {
+    "english": "heart",
+    "hebrew": "לֵב",
+    "group": "13"
+  },
+  {
+    "english": "hurts, aches",
+    "hebrew": "כּוֹאֵב",
+    "group": "13"
+  },
+  {
+    "english": "exactly",
+    "hebrew": "בְּדִיוּק",
+    "group": "13"
+  },
+  {
+    "english": "wedding",
+    "hebrew": "חַתוּנָה",
+    "group": "13"
+  },
+  {
+    "english": "I was",
+    "hebrew": "הָיִיתִי",
+    "group": "13"
+  },
+  {
+    "english": "forty",
+    "hebrew": "אַרְבָּעִים",
+    "group": "13"
+  },
+  {
+    "english": "thinks (f)",
+    "hebrew": "חושֶבֶת",
+    "group": "14"
+  },
+  {
+    "english": "put (f)",
+    "hebrew": "שָׂמָה",
+    "group": "14"
+  },
+  {
+    "english": "door",
+    "hebrew": "דֶלֶת",
+    "group": "14"
+  },
+  {
+    "english": "window",
+    "hebrew": "חַלון",
+    "group": "14"
+  },
+  {
+    "english": "answer (m)",
+    "hebrew": "עושֶׂה",
+    "group": "14"
+  },
+  {
+    "english": "wall",
+    "hebrew": "קִיר",
+    "group": "14"
+  },
+  {
+    "english": "without",
+    "hebrew": "בְּלִי",
+    "group": "15"
+  },
+  {
+    "english": "when",
+    "hebrew": "כַּאֲשֶר",
+    "group": "15"
+  },
+  {
+    "english": "first",
+    "hebrew": "רִאשון",
+    "group": "15"
+  },
+  {
+    "english": "water",
+    "hebrew": "מַיִם",
+    "group": "15"
+  },
+  {
+    "english": "orders",
+    "hebrew": "מַזְמִין",
+    "group": "15"
+  },
+  {
+    "english": "waiter",
+    "hebrew": "מֶלְצַר",
+    "group": "15"
+  },
+  {
+    "english": "hungry (f)",
+    "hebrew": "רְעֵבָה",
+    "group": "16"
+  },
+  {
+    "english": "me",
+    "hebrew": "אותִי",
+    "group": "16"
+  },
+  {
+    "english": "sugar",
+    "hebrew": "סוּכָּר",
+    "group": "16"
+  },
+  {
+    "english": "cheese",
+    "hebrew": "גְבִינָה",
+    "group": "16"
+  },
+  {
+    "english": "yesterday",
+    "hebrew": "אֶתְמול",
+    "group": "16"
+  },
+  {
+    "english": "late",
+    "hebrew": "מְאוּחָר",
+    "group": "16"
+  },
+  {
+    "english": "early",
+    "hebrew": "מוּקְדָם",
+    "group": "17"
+  },
+  {
+    "english": "washed himself",
+    "hebrew": "הִתְרַחֵץ",
+    "group": "17"
+  },
+  {
+    "english": "dressed himself",
+    "hebrew": "הִתְלַבֵּש",
+    "group": "17"
+  },
+  {
+    "english": "quickly",
+    "hebrew": "מַחֵר",
+    "group": "17"
+  },
+  {
+    "english": "drank",
+    "hebrew": "שָתָה",
+    "group": "17"
+  },
+  {
+    "english": "car",
+    "hebrew": "מְכונִית",
+    "group": "17"
+  }
 ]

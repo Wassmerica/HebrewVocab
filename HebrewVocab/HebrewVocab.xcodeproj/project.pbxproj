@@ -17,6 +17,7 @@
 		951EE3661CF71B0A00F6EB7E /* HebrewVocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3651CF71B0A00F6EB7E /* HebrewVocabUITests.swift */; };
 		951EE3751CFC51F500F6EB7E /* HChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3741CFC51F500F6EB7E /* HChar.swift */; };
 		951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951EE3781CFC533D00F6EB7E /* WordRepository.swift */; };
+		95384D391E3B697700790745 /* CongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95384D381E3B697700790745 /* CongViewController.swift */; };
 		9546FCD51D0C6782005D4E81 /* HPhrase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546FCD31D0C6782005D4E81 /* HPhrase+CoreDataProperties.swift */; };
 		9546FCD61D0C6782005D4E81 /* HPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546FCD41D0C6782005D4E81 /* HPhrase.swift */; };
 		9546FCD81D0C683C005D4E81 /* PhraseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546FCD71D0C683C005D4E81 /* PhraseRepository.swift */; };
@@ -63,6 +64,7 @@
 		951EE3671CF71B0A00F6EB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		951EE3741CFC51F500F6EB7E /* HChar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HChar.swift; sourceTree = "<group>"; };
 		951EE3781CFC533D00F6EB7E /* WordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordRepository.swift; sourceTree = "<group>"; };
+		95384D381E3B697700790745 /* CongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongViewController.swift; sourceTree = "<group>"; };
 		9546FCD31D0C6782005D4E81 /* HPhrase+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HPhrase+CoreDataProperties.swift"; path = "../HPhrase+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9546FCD41D0C6782005D4E81 /* HPhrase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HPhrase.swift; path = ../HPhrase.swift; sourceTree = "<group>"; };
 		9546FCD71D0C683C005D4E81 /* PhraseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseRepository.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				951EE3421CF71B0900F6EB7E /* AppDelegate.swift */,
 				951EE3441CF71B0900F6EB7E /* WordsViewController.swift */,
 				9549B2D51D0485280000AF83 /* PhraseViewController.swift */,
+				95384D381E3B697700790745 /* CongViewController.swift */,
 				951EE3461CF71B0900F6EB7E /* Main.storyboard */,
 				951EE34E1CF71B0900F6EB7E /* LaunchScreen.storyboard */,
 				9549B2D71D04CA050000AF83 /* words.json */,
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9546FCD51D0C6782005D4E81 /* HPhrase+CoreDataProperties.swift in Sources */,
+				95384D391E3B697700790745 /* CongViewController.swift in Sources */,
 				951EE3751CFC51F500F6EB7E /* HChar.swift in Sources */,
 				951EE3791CFC533D00F6EB7E /* WordRepository.swift in Sources */,
 				9549B2DC1D04CBC30000AF83 /* HWord.swift in Sources */,
