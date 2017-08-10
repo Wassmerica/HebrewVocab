@@ -58,5 +58,20 @@
     "english": "A long time",
     "hebrew": "הַרְבֵּה זְמַן",
     "group": "3"
-  }
+ },
+ {
+    "english": "Every Day",
+    "hebrew": "כָּל יוֹם",
+    "group": "4"
+ },
+ {
+    "english": "All day",
+    "hebrew": "כָּל הַיוֹם",
+    "group": "4"
+ },
+ {
+    "english": "It doesn't matter",
+    "hebrew": "אֵין דָבָר",
+    "group": "4"
+}
 ]

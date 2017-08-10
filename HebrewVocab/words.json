@@ -538,5 +538,90 @@
     "english": "car",
     "hebrew": "מְכונִית",
     "group": "17"
-  }
+ },
+ {
+    "english": "all",
+    "hebrew": "כָּל",
+    "group": "18"
+ },
+ {
+    "english": "a little",
+    "hebrew": "מְעַט",
+    "group": "18"
+ },
+ {
+    "english": "parents",
+    "hebrew": "הוֹרִים",
+    "group": "18"
+ },
+ {
+    "english": "let's hear",
+    "hebrew": "נִשְׁמַע",
+    "group": "18"
+ },
+ {
+    "english": "that",
+    "hebrew": "שׁ...",
+    "group": "18"
+ },
+ {
+    "english": "always",
+    "hebrew": "תּמִיד",
+    "group": "18"
+ },
+ {
+    "english": "if",
+    "hebrew": "אִם",
+    "group": "19"
+ },
+ {
+    "english": "easy",
+    "hebrew": "קַל",
+    "group": "19"
+ },
+ {
+    "english": "bill, arithmetic",
+    "hebrew": "חֶשְׁבּוֹן",
+    "group": "19"
+ },
+ {
+    "english": "thing",
+    "hebrew": "דָבָר",
+    "group": "19"
+ },
+ {
+    "english": "abroad",
+    "hebrew": "חוּץ לָאָרֶץ",
+    "group": "19"
+ },
+ {
+    "english": "studies (f)",
+    "hebrew": "לוֹמֶדֶת",
+    "group": "19"
+ },
+    "english": "kindergarten",
+    "hebrew": "גַן יְלָדִים",
+    "group": "20"
+ },
+    "english": "school",
+    "hebrew": "בֵּית סֵפֶר",
+    "group": "20"
+ },
+    "english": "class, grade",
+    "hebrew": "כִּיתָּה",
+    "group": "20"
+ },
+    "english": "Jew",
+    "hebrew": "יְהוּדִי",
+    "group": "20"
+ },
+    "english": "sings (f)",
+    "hebrew": "שָׁרָה",
+    "group": "20"
+ },
+    "english": "from",
+    "hebrew": "מִ...(מִן)",
+    "group": "20"
+ }
+ 
 ]
