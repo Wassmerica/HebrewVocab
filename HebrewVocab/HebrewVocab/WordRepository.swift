@@ -12,7 +12,6 @@ import UIKit
 
 class WordRepository {
     
-    //comment test to get rid Sourcetree password issue
     fileprivate static var managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).managedObjectContext
     
     class func getNextSetOfWords() -> Array<HWord>? {
