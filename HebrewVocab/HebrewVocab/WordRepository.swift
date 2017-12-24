@@ -12,7 +12,6 @@ import UIKit
 
 class WordRepository {
     
-    //this is a comment for a commit test
     fileprivate static var managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).managedObjectContext
     
     class func getNextSetOfWords() -> Array<HWord>? {
