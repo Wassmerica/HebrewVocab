@@ -243,7 +243,7 @@
 				TargetAttributes = {
 					951EE33E1CF71B0900F6EB7E = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XKN99LRMT9;
+						DevelopmentTeam = ENNR3R7N5P;
 						LastSwiftMigration = 0810;
 					};
 					951EE3551CF71B0900F6EB7E = {
@@ -474,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ENNR3R7N5P;
 				INFOPLIST_FILE = HebrewVocab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;
@@ -489,6 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ENNR3R7N5P;
 				INFOPLIST_FILE = HebrewVocab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wasserman.HebrewVocab;

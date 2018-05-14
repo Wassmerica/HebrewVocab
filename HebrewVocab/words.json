@@ -599,29 +599,185 @@
     "hebrew": "לוֹמֶדֶת",
     "group": "19"
  },
+ {
     "english": "kindergarten",
     "hebrew": "גַן יְלָדִים",
     "group": "20"
  },
+ {
     "english": "school",
     "hebrew": "בֵּית סֵפֶר",
     "group": "20"
  },
+ {
     "english": "class, grade",
     "hebrew": "כִּיתָּה",
     "group": "20"
  },
+ {
     "english": "Jew",
     "hebrew": "יְהוּדִי",
     "group": "20"
  },
+ {
     "english": "sings (f)",
     "hebrew": "שָׁרָה",
     "group": "20"
  },
+ {
     "english": "from",
     "hebrew": "מִ...(מִן)",
     "group": "20"
+ },
+ {
+    "english": "even",
+    "hebrew": "אֲפִילוּ",
+    "group": "21"
+ },
+ {
+    "english": "together",
+    "hebrew": "יַחַד",
+    "group": "21"
+ },
+ {
+    "english": "room",
+    "hebrew": "חֶדֶר",
+    "group": "21"
+ },
+ {
+    "english": "this year",
+    "hebrew": "הַשָׁנָה",
+    "group": "21"
+ },
+ {
+    "english": "last",
+    "hebrew": "שֶׁעָבַר",
+    "group": "21"
+ },
+ {
+    "english": "nurse",
+    "hebrew": "אָחוֹת",
+    "group": "21"
+ },
+ {
+     "english": "letter",
+     "hebrew": "מִכְתָּב",
+     "group": "22"
+ },
+ {
+     "english": "fellow",
+     "hebrew": "בָּחוּר",
+     "group": "22"
+ },
+ {
+     "english": "when?",
+     "hebrew": "מָתַי",
+     "group": "22"
+ },
+ {
+     "english": "next",
+     "hebrew": "הָבָּה",
+     "group": "22"
+ },
+ {
+     "english": "to write",
+     "hebrew": "כּוֹתֵב",
+     "group": "22"
+ },
+ {
+     "english": "everyone",
+     "hebrew": "כָּל אֶחָד",
+     "group": "22"
+ },
+ {
+     "english": "date",
+     "hebrew": "תַּאֲרִיךְ",
+     "group": "23"
+ },
+ {
+     "english": "wise",
+     "hebrew": "חָכָם",
+     "group": "23"
+ },
+ {
+     "english": "fine, nice",
+     "hebrew": "נֶחְמָד",
+     "group": "23"
+ },
+ {
+     "english": "returns",
+     "hebrew": "חוֹזֵר",
+     "group": "23"
+ },
+ {
+     "english": "counts",
+     "hebrew": "סוֹפֵר",
+     "group": "23"
+ },
+ {
+     "english": "interesting",
+     "hebrew": "מְעַנְיֵן",
+     "group": "23"
+ },
+ {
+     "english": "too bad",
+     "hebrew": "חֲבָל",
+     "group": "24"
+ },
+ {
+     "english": "month",
+     "hebrew": "חוֹדֶשׁ",
+     "group": "24"
+ },
+ {
+     "english": "that is",
+     "hebrew": "זֹאת אוֹמֶרֶת",
+     "group": "24"
+ },
+ {
+     "english": "you gave",
+     "hebrew": "נתַתָּ",
+     "group": "24"
+ },
+ {
+     "english": "took",
+     "hebrew": "לָקַח",
+     "group": "24"
+ },
+ {
+     "english": "begin",
+     "hebrew": "מַתְחִילִים",
+     "group": "24"
+ },
+ {
+     "english": "I gave",
+     "hebrew": "נָתַתִּי",
+     "group": "25"
+ },
+ {
+     "english": "sit down!",
+     "hebrew": "שֵׁב",
+     "group": "25"
+ },
+ {
+     "english": "many",
+     "hebrew": "רַבִּים",
+     "group": "25"
+ },
+ {
+    "english": "because, that",
+     "hebrew": "כִּי",
+     "group": "25"
+ },
+ {
+     "english": "birthday",
+     "hebrew": "יוֹם הוּלֶדֶת",
+     "group": "25"
+ },
+ {
+     "english": "finish",
+     "hebrew": "גוֹמְרִים",
+     "group": "25"
  }
  
 ]
